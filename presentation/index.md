@@ -1,6 +1,6 @@
 class: center, middle
 
-# Microsoft Azure
+# Microsofts nettsky
 
 ## -en introduksjon
 
@@ -9,9 +9,67 @@ class: center, middle
 # Dagsorden
 
 1. Nettskyen
-2. Serverless
+2. Serverless computing
 3. Azure function - node.js
 4. ASP.NET
+
+---
+
+# Nettskyen
+
+* **Funksjonalitet** - ML, AI, infrastruktur
+* **Smidighet** - tilpasse til endrete behov
+* **Skalerbarhet** - tilpasse til endret trafikkmønster
+* **Omkostninger** - operasjonelle i stedet for investering
+
+---
+
+# Store aktører - nettsky
+
+1. Amazon AWS
+2. Microsoft Azure
+3. Google
+4. Alibaba Cloud
+5. Oracle
+6. IBM
+
+---
+
+# Arkitektur og tjenester
+
+<img src="./images/hosting_models.png" width=700 />
+
+---
+
+# Pizza
+
+<img src="./images/pizza.jpg" width=700 />
+
+---
+
+class: center,middle
+
+# Microsoft Azure
+
+---
+
+# Azure-økosystemet
+
+Kilde: [http://azureinteractives.azurewebsites.net/Azure101Cards/default.html](http://azureinteractives.azurewebsites.net/Azure101Cards/default.html)
+
+<img src="./images/azure_cards.PNG" width=700 />
+
+---
+
+# Kode i Azure
+
+<img src="./images/azure.png" width=650 />
+
+---
+
+# Ressurser i Azure
+
+<img src="./images/Azure_resources.svg" width=650 /> 
 
 ---
 
@@ -42,22 +100,6 @@ class: center,middle
 * Kjennetegn
   * Betaler per invokasjon/eksevering (Azure: ulike modeller)
   * En _funksjon_ er en selvstendig enhet
-
----
-
-class: center,middle
-
-# Azure-økosystemet
-
-<img src="./images/azure.png" width=650 />
-
----
-
-class: center,middle
-
-# Ressurser i Azure
-
-<img src="./images/az-res.svg" width=650 />
 
 ---
 
@@ -102,9 +144,17 @@ class: center,middle
 
 class: center,middle
 
+## Eksempel - Slack
+
+<img src="./images/slack_whatsup.PNG" width=650 />
+
+---
+
+class: center,middle
+
 # Triggers & Bindings
 
-[.pure-table.pure-table-bordered.pure-table-striped.smaller-font[
+.pure-table.pure-table-bordered.pure-table-striped.smaller-font[
 
 |Type                  |Service           |Trigger    |Input    |Output     |
 |----------------------|------------------|-----------|---------|-----------|
@@ -190,3 +240,37 @@ class: center,middle
   "entryPoint": "BredvidFuncs.SlackBot.FindNonResponders.Run"
 }
 ```
+
+---
+
+# Ressurser for funksjoner
+
+<img src="./images/Azure_resources.svg" width=650 /> 
+
+---
+
+class: center,middle
+
+# Hands-on: Azure functions
+
+Oppgaver: [http://bit.ly/bredvidsommer](http://bit.ly/bredvidsommer)
+
+---
+
+# ASP.NET Core
+
+* Kryssplattform
+* .NET bygd opp fra bunnen av
+* Terminologi
+  * .NET standard
+  * .NET Framework (Windows only)
+  * .NET Core (Cross platform)
+* ASP.NET Core 2.1 - webrammeverk
+
+---
+
+class: center,middle
+
+# Hands-on: ASP.NET Core
+
+Oppgaver: [http://bit.ly/bredvidsommer](http://bit.ly/bredvidsommer)

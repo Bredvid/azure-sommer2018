@@ -112,3 +112,10 @@ git push -u azure master
 ```
 
 Åpne i nettleser: [https://sommerwebben.azurewebsites.net](https://sommerwebben.azurewebsites.net)
+
+## Ressurser
+
+* [An introduction to Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview)
+* [Introduction to ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-2.1)
+* [Azure CLI 2.0](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest)
+* [Getting started with Azure App Services Development](https://blogs.msdn.microsoft.com/premier_developer/2018/03/25/getting-started-with-azure-app-services-development/)
